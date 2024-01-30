@@ -1,0 +1,17 @@
+Question: What is Lambda Expression?
+Anwser  : Lambda is anonymous function
+		  * No Name
+		  * No modifier
+		  * No return type
+		  
+Benefits of lambda?
+1) Reduces the line of code.(But only used with functional interface)
+2) To call API's Very effectively (Jese hum stream api ke function use krte hai).
+3) To write more Readable ,Maintainable and concise code.	 		  
+
+Important Rules of lambda :
+# If he body of Lambda expression contain only on statement then the curly braces are optional.
+# If you pass the argument type (like int a, string b) in function then the type is also optional
+
+Functional Interface: If the interface contains only one abstract method then it is called functional interface.
+example: runnable, callable , camparable. 

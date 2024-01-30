@@ -1,0 +1,69 @@
+String :- String is a non-primitive data type.
+		  String is a collection of characters. 	
+		  String is an object which is immutable.		  
+
+There are 3 classes to create a String:
+* String.
+* String Buffer.
+* String builder.
+
+String constant pool: String literals store in pool memory area where as string object is store in heap memory area.
+==============================================================================================================================
+Q: What is  string immutability?
+=> String objects are immutable .hence we cannot modify the content.
+
+Q: Why string class is final?
+String class got some special features which is not available in other class  and making string class final prevents 
+the subclasses that could break the string class rules.    
+
+============================================================================================================================
+Q: Difference between == operator and equals method?
+ (==) operator used for refrence comparison it means == operator will check if both object points to the same memory location
+ oe not.
+ equals() methods is used for content comparison. it means it will check the object value.
+ ============================================================================================================================
+ 
+ Join() :- It is a static method which concatenates the given element with delimiter(e.g: , ; ') and return the concatenated string.
+ subSequence() :- this method returns a charSequence.It starts with the char value at the specified index and ends
+                    with the char value at (end -1).
+====================================================================================================================================                                
+ equals() method of StringBuffer class:== check if both the  references points  to the same obect or not.
+ 
+ StringBuffer and String :
+ ------------------------
+ String class is creates immutable object and StringBuffer is creates the  mutable object. 	
+  
+ StringBuffer and StringBuilder:
+ -------------------------------
+ StringBuffer and StringBuilder both are creates mutable object. 
+ StringBuffer have Synchronized methods.
+ StringBuilder have Non-Synchronized methods.
+ 
+ 
+ ============================================================================================================================
+ 
+   String                                   StringBuffer                                         StringBuilder
+   ------             |                     -----------           |                             --------------
+1)(Storge)Heap area   |          1)    Heap Area                  |                  1)         Heap Area
+		SCP	 		  |                                           | 
+			 		  |											  |
+2) Immutabe Objects   |			2)	Mutable objects			      |                  2)         Mutable objects
+			 		  |										      | 
+3) Memory			  |         3)   occupy less memory           |                  3)         occupy less memory
+ if we change the 	  |                                           |
+value of String it wil|                                           |
+occupy more memory	  |        									  |
+			 		  |                                           |
+4) Thread safe:		  |4) All methods are Synchronized & thus it  |4)All are non-synchronized methods and not tread safe.
+ Not thread safe	  |   is thread safe                          |
+			 		  |                                           |
+5)Performance:        |5)Fast a compared to string				  |5)Fast as compared to StringBuffer because of non-synch. 
+  Slow                |                                           |
+                      |                                           |
+6)Data is not changed |6)if data Changes frequently.	          |6)If data changes frequently.		
+  frequently.(USE)    |											  |			
+                      |											  |				
+                      | 										  |		
+                      
+============================================================================================================================= 
+                     	

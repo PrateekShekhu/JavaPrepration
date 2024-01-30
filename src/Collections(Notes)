@@ -1,0 +1,107 @@
+														Collections In java
+														--------------------
+
+1) Collection: The group of individual objects is known as collection.
+2) Collection framework:To represent a group of individual objects as a single entity is known as Collection Framework.
+3) Collection Interface: Collection interface is the interface which is implemented by all the classes of collection framework.
+			   			 It declares the method that every collection will have.
+4) Collections class: 	It is present in java.util package and is a member of collection framework.
+	
+
+List: List is an interface which provides a way to store the ordered collection.
+	  It can store the duplicate elements.					
+      It can maintain the insertion order.
+      List interface is found in java.util package.		
+      List is indexed based.																		
+      The implemented class of list interface are ArrayList,LinkedList,Vector and Stack.
+      
+      
+ArrayList: It is class which implements the List interface. 
+		   It is a ordered collection.
+		   It provides the functionality of dynamic array(Size can be increased or decreased automatically based on insertion and deletion ).
+		   Size is not fixed as an array.
+		   
+		   
+LinkedList: It is class which implements List interface.
+			Insertion and deletion in faster(Because no shifting of elements).
+					
+					
+Vector: Vector is a legacy class introduced in JDK 1.0	version.
+        Vector implements the dynamically array which means size can be increased or decrease automatically .				   
+        Vector is synchronized by default. 
+        vector can store hetrogenous data.
+        
+Stack: Stack follow the LIFO (Last in first out) principle.
+	   Stack extends the vector class.
+
+Question: Differnce between ArrayList Vs LinkedList?
+==> In Arraylist Accessing the elements are faster And is Occupies less memory.	   
+==>In LinkedList insertion & deletion is faster is faster(No Shifting of elements) and Occupies more memory.
+
+Question: Difference between Arraylist ad vector ?
+==> ArrayList is Not synchronized by default.
+==> Vector is synchronized is by default.
+
+============================================================================================================================
+
+Set: Set doesn't allow the duplicates.
+	Set is not index based.
+	It is present in java.util package.
+
+
+HashSet: It implements set interface.
+		 Duplicates are not allowed.
+		 HashSet underlying data structure is HashTable.
+		 Insertion order is not preserved.
+		 HashSet store the elements according to the "HashCode" value.(Backend main map he chalta hai)
+		 
+LinkedHashSet: It maintains the insertion order.		 
+		 
+		 
+TreeSet: TreeSet maintains the insertion order.		 
+   		 TreeSet Stores homogenous elements.
+   		 
+   		 
+   		 
+===================================================================================================================================   		 
+   		 
+Map: Map stores the data in key-value pair.   		 
+	 In Map key should be unique but value can be duplicate.
+	 In map key can store one null key but any number of null values.
+	 Map doesn't follow the sorting and insertion order.
+	 
+	 
+HashMap: HashMap is implemented class of Map interface.	 
+		 HashMap underline data structure is "HashTable".
+		 HashMap stores the value in key-value pair.
+		
+* Each Key-value pair is known as Entry (And entry is known as Interface). 
+		
+
+TreeeMap: The underline data structure is "Red-Black" Tree.	
+		  Tree map follows the sorting order.
+		  It can store homogenous and hetrogenous elements.
+		  Cannot store null values.
+		  It is non-synchronised.
+		
+   		 
+HashTable: It is implemented class of Map interface.		 
+		   It is a legacy class and is introduced in JDK 1.2
+		   HashTable underline data structure in hashtable.
+
+Comparable: It is provides only single sorting sequence.
+			It provides compareTo() method.
+
+Comparator: It provides multiple sorting sequence.
+			It provides compare() method.
+
+
+		
+	
+
+
+
+
+	             
+		  
+		

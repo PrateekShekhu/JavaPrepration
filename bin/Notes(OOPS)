@@ -1,0 +1,158 @@
+														{OOPS}
+														
+OOPs is object oriented programming language(System/Structure)
+small talk is purely object oriented programming Language
+=================================================================
+
+There are 6 main pillars in oops:
+1) class
+2) object & functions/Methods
+3) Encapsulation
+4) Polymorphism
+5) Inheritance
+6) Abstraction
+
+
+1) Class:-- class is userdefined datatype which contains variable and methods
+
+Syntax: AccessModifiers ClassName
+		{
+		methods();
+		constructors();
+		variables
+		blocks
+		nestedClassses
+		}
+=================================================================================================================		
+2) Method:-- Method is a set of code which performs a particular task.
+
+Advantages: i) code Reusability. 		
+			ii) code optimization
+======================================================================================================================			
+3)	Object:-- object is instance of a class	instance means allocating the sufficient memory space to instance variables	
+
+Objects can be created by using 5 ways:
+i)   new keyword
+ii)  newInstance() method
+iii) clone() method
+iv)  Deserialization 
+v)   factory methods
+			
+We can initialize the object by 3 ways:			
+1)Reference variable
+2) using methods()
+3) Constructor
+
+
+Constructors: 1)Constructor is a block(which is similar to methods).Constructor name is same as that of class			   
+			  2)It doesn't have any return type not even void
+			  3)constructor get invoked or executes automatically when we create an object 
+			  4)The modifiers that are applicable for constructor are public,private,default and protected.
+			  
+Use of constructor: It is used to initialize the object or to initialize the values for variable.
+
+Types of constructors:- 1)Default constructor.  (compiler creates this)
+--------------------    2)No-arg constructor.   (User-defined)
+						3) parameterized constructor. 
+						
+						
+Constructor chaining:- Calling the one constructor into another is known as constructor chaining						
+
+============================================================================================================================
+												Inheritance
+
+
+Inheritance:- It is a mechanism of establishing a relationship between classes.
+
+* creating a drived class by using base class.
+* The class which is giving variables and methods is called base class,parent class or super class
+	and the classes which is taking the variables and methods is called sub class,child class or derived class.
+	  
+	  
+Advantages: 1)Code reusability:- Eleminating the repetition of code  
+			2)Extensibilty :- Adding the extra functionality
+			
+			
+
+Types of Inheritance: There are 5 types:
+----------------------------------------
+1)Single level Inheritance 
+2)Multilevel level Inheritance
+3)Multiple level Inheritance
+4)Herierical
+5)Hybrid			
+			
+Types pf realation between classes:
+IS.A relation	
+HAS.A relation(Association)
+
+
+=========================================================================================================================
+										 Polymorphism
+
+Polymorphism is a concept by which can we can perform a single Action(task) by different ways.
+
+Types of polymorphism are 2:
+1)Compile time.(Static polymorphism)
+2)Run Time. (Dynamic polymorphism)
+
+
+we can achieve polymorphism by two ways:-
+
+1)Method overloading.
+2)Method overRiding. 
+
+
+
+1)Method OverLoading:- It is a process of defining the multiple methods with same name but different parameters with in a same class.
+
+2)Method overRiding:-It is a process of defining the  the multiple method with same name same parameters but different body with in  a different class.
+
+=====================================================================================================================================
+
+													Abstraction 
+
+Abstraction:It is the process for hiding the implementation details and showing only the functionality to the user.
+
+* Abstract class must declared with abstract keyword.
+* Abstract class consist of abstract methods and concrete methods.
+* Abstract method must be implement in drived class.
+* we cannot create the object of abstract class.
+
+====================================================================================================================================
+
+													Interface
+													
+Interface: It is a blueprint of a class which have only abstract methods.
+ 
+* By interface we can achieve 100% abstraction.
+* By interface we can achieve Multiple inheritance.
+* It is used to achieve loose coupling.
+* In interface we have public static final variable;
+=====================================================================================================================================	
+												Encapsulation
+												
+Encapsulation:-It is the process of wrapping or binding  the variables and method into a single container. 													
+
+Steps to achieve encapsulation:
+* Declare the variables of class as private.
+* Provide public getter and setter methods to modify and view the variables values.
+
+Data Hiding:- In encapsulation, the variables of a class will be hidden for the other classes, and can accessed through the methods of their current class.
+=======================================================================================================================================
+
+This keyword: this keyword is the reference variable that refers to current object.
+
+---------------------
+Uses of this keyword:
+---------------------
+1)this keyword is used to invoke the current class instance variable.
+2)this keyword can be used to invoke the current class method.
+3)this keyword can be used to invoke current class constructor.
+4)this keyword can be used to pass as an argument as an method call.
+5)this keyword can be used to pass as an argument in constructor call.
+6)this keyword can be used to return the current class instance from the method.
+=========================================================================================================================================
+Super keyword:- It is a reference variable which refers to parent class object.
+
+
